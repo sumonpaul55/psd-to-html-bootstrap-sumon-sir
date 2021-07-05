@@ -1,0 +1,150 @@
+/* Responsive design start from here */
+@media(max-width: 991px){
+    .top-left ul{
+        display: block !important;
+    }
+    /* about studio */
+    .about-studio{
+        margin-top: 0;
+    }
+    .about-studio .about-right{
+        margin-top: 0;
+    }
+    .we-img {
+        width: 80%;
+        padding: 20px 0;
+    }
+    .go-top{
+        right: 10px;
+        bottom: 10px;
+    }
+    .weget-one{
+        padding-bottom: 150px;
+    }
+    .weget-one img{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+     .weget-social li a{
+        padding: 2px !important;
+    }
+    
+
+}  /* 991 end*/
+
+/* for 768px */
+@media(max-width: 767px){
+    .navfixed .carousel-inner{
+        padding-top: 60px;
+    }
+    /* slider content 768 */
+    #dataslide .carousel-caption .peragraph{
+        width: 100%;
+        font-size: 20px;
+        margin: 0;
+        display: block;
+    }
+    #dataslide .carousel-caption h2{
+        font-size: 42px;
+    }
+    /* about studio */
+    .about-studio .about-right{
+        position: static;
+        margin-left: 0;
+        transform: translateY(0);
+    }
+    .about-right{
+        margin-top: 80px !important;
+    }
+    .about-studio{
+        margin: 10px;
+    }
+    .about-left{
+        margin-left: 0;
+    }
+    
+    #foote-section .weget-social{
+        text-align: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    #foote-section .weget{
+        padding: 10px;
+    }
+    .weget-one{
+        position: relative;
+    }
+    #foote-section .weget-one::after{
+        content: "";
+        background: #353535;
+        position: absolute;
+        top: 0;
+        right: -50%;
+        left: 100%;
+        bottom: 0;
+    }
+    #have-section .custom-btn{
+        padding: 10px;
+    }
+    
+    
+
+} /*767px end */
+
+/* under 480px devices */
+@media(max-width: 480px){ 
+    .top-content{
+        display: block !important;
+        text-align: center;
+    }
+    .top-right ul{
+        justify-content: center;
+    }
+    /* navbar */
+    .navfixed .navbar{
+        position: static;
+    }
+    .navfixed .carousel-inner{
+        padding-top: 0;
+    }
+    /* alider content 480px */
+    #dataslide .carousel-caption .peragraph{
+        font-size: 14px;
+    }
+    #dataslide .carousel-caption h2{
+        font-size: 28px;
+    }
+    #have-section .custom-btn{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .tab-ul li a{
+        font-size: 10px;
+    }
+
+
+
+}/* 480px device*/
+
+@media(max-width: 370px){
+    header{
+        display: none;
+    }    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
